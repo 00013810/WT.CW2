@@ -13,6 +13,7 @@ git clone https://github.com/00013810/WT_CW2
 ```
 3.	Run app
 ```bash
+    better to do it through zip project
     node blog.js
 ```
 ### List of dependencies

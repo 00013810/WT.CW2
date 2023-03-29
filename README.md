@@ -20,4 +20,5 @@ git clone https://github.com/00013810/WT_CW2
 - pug.js
  
 ### Web Application repository on github link
-[link]
+
+https://github.com/00013810/WT.CW2

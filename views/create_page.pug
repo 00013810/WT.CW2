@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content 
+	div.container
+		h1 Create Post
+
+		if error
+			p.error Your post can not be empty. Try one more time
+
+		if success
+			p.success Your post was successfully created.	
+
+		form.form_view(action="/create", method="POST")
+			label Title
+			input.input(type="text", name='title')
+
+			label Description of Post
+			textarea.input(type="text", name='description_post')
+
+			button.btn_submit Submit
+			<br>
+			<br>
+			<br>

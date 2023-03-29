@@ -1,0 +1,143 @@
+:root {
+	font-size: 18px;
+};
+
+/* style for all page*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*navbar menu style*/
+.navbar {
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding-top: 12px;
+}
+
+/*elements a in class nav style*/
+.nav a
+{
+	display: inline-block;
+	padding: 12px 16px;
+}
+
+/*stoping decoration for a elements*/
+a{
+	text-decoration: none;
+}
+
+/* Section for elemenents navbar*/
+
+/*Color occurence after navigating mouse in its elements*/
+.nav a:hover {
+  background-color: lightblue;
+}
+
+a:hover {
+	color: black;
+}
+
+body{
+	background-color: #00FF7F;
+}
+
+.navbar a{
+	padding: 29px;
+}
+
+
+/*Homepage's elements style*/
+.container h1
+{
+	color: #8B008B;
+}
+
+.container{
+	max-width: 1000px;
+	padding: 20px;
+}
+
+.button_look{
+	display: inline-block;
+	padding: 12px 23px;
+	background-color: orange;
+	color: white;
+}
+
+
+
+
+
+
+/*Create page Post for Blog Style*/
+.form_view{
+	max-width: 80%;
+	max-height: 60%;
+	padding: 10px;
+}
+
+.input{
+	width: 100%;
+	display: block;
+	padding: 23px;
+	font-size: 1.3rem;
+	border: 3px;
+	margin-bottom: 23px;
+}
+
+.btn_submit{
+	display: inline-block;
+	background: yellow;
+	border: hidden;
+	padding: 10px 9px; 
+	font-family: inherit;
+}
+
+.container h1
+{
+	padding: 10px;
+}
+
+
+
+
+/*All posts and its elements style*/
+.post_wrapper{
+	max-width: 60%;
+	display: flex;
+	justify-content: space-between;
+	padding: 14px;
+	align-items: center;
+	border-bottom: 3px solid;
+
+}
+
+.post{
+	font-size: 1.2rem;
+}
+
+.delete_btn {
+	display: inline-block;
+	padding: 6px 11px;
+	background: tomato;
+}
+
+
+.container_post{
+	max-width: 80%;
+	max-height: 60%;
+	padding: 22px;
+	padding-right: -45px;
+}
+/*Displaying Error if forms are submited empty*/
+.error{
+	display: inline-block;
+	padding: 10px;
+	border: 1.5px;
+	font-size: 1.4rem;
+	color: red;
+}

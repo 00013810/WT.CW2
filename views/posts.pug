@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+	div.container_post
+	h1 All Posts
+
+	each post in posts
+		div.post_wrapper
+			a.post(href=`/posts/${ post.id }`) #{ post.title }
+			a.delete_btn(href="#") Delete

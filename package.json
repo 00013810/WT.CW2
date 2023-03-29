@@ -1,0 +1,17 @@
+{
+  "name": "wt.cw2.00013810",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "description": "Steps for running web application locally\r 1.\tClone repository\r ```bash\r git clone https://github.com/00013810/WT_CW2 \r ```\r 2.\tInstall dependencies \r ```bash\r     cd WT.CW2.00013810\r     npm install \r ```\r 3.\tRun app\r ```bash\r     node blog.js\r ```\r ### List of dependencies\r - express.js\r - pug.js"
+}

@@ -14,7 +14,10 @@ git clone https://github.com/00013810/WT_CW2
 3.	Run app
 ```bash
     better to do it through zip project
+    npm init -y
+    npm i express pug (for getting node moules)
     node blog.js
+    localhost:3400
 ```
 ### List of dependencies
 - express.js
